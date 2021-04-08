@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Обязательные метатеги -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./cdn/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./cdn/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Привет мир!</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Привет мир!</h1>
+        <p class="text">text</p>
+        <p class="text-bold">text</p>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
+            style="background-color: aquamarine; min-height: 200px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    1
+                </div>
+                <div class="carousel-item">
+                    2
+                </div>
+                <div class="carousel-item">
+                    3
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <i class="fas fa-arrow-left arrow"></i>
+                <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <i class="fas fa-arrow-right arrow"></i>
+                <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-4 col-xl-3">1</div>
+                <div class="col-6 col-md-4 col-xl-3">2</div>
+                <div class="col-12 col-md-4 col-xl-3">3</div>
+                <div class="col-12 col-md-12 col-xl-3">4</div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-dark-green">Primary</button>
+        <i class="fas fa-bus-alt"></i>
+    </main>
+
+    <!-- Дополнительный JavaScript; выберите один из двух! -->
+
+    <!-- Вариант 1: Bootstrap в связке с Popper -->
+    <script src="./cdn/bootstrap/bootstrap.bundle.js"></script>
+</body>
+
+</html>
